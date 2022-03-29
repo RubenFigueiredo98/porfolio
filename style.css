@@ -7,7 +7,7 @@
 body {
     font-family:'Montserrat', sans-serif;
     color: #1a1b1f;
-    background-color: white;
+    background-color: #f4f4f4;
     font-size: 16px;
     text-decoration: none;
     width: 100%;
@@ -79,7 +79,7 @@ li:hover:after{
 /* First Section */
 
 .introduction {
-    width: 60vw;
+    width: 67vw;
     margin: 0 auto;
     height: auto;
     display: flex;
@@ -122,14 +122,27 @@ li:hover:after{
 
 .grid {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows:  1fr;
     grid-template-columns: 60vw 30vw ;
     grid-row-gap: 2vh;
     grid-column-gap: 2vw;
     align-items: center;
     place-items: center;
     justify-content: center;
+    margin-bottom: 5vh;
     
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 30vw 60vw ;
+    grid-row-gap: 2vh;
+    grid-column-gap: 2vw;
+    align-items: center;
+    place-items: center;
+    justify-content: center;
+    margin-bottom: 5vh;
 }
 
 .project-container{
@@ -172,7 +185,7 @@ justify-content: flex-start;
 }
 
 #contact_form {
-    width: 60vw;
+    width: 67vw;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -261,6 +274,7 @@ justify-content: flex-start;
     outline: none;
     color: white;
     background-color: black;
+    cursor: pointer;
 }
 
 
