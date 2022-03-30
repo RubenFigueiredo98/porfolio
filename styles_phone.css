@@ -151,7 +151,15 @@ footer {
     margin-top: 5vh;
 }
 
-
+#footer_ul {
+    width: auto;
+    display: flex;
+    height: auto;
+    gap: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
 
 
 }
