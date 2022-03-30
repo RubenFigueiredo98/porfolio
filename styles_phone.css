@@ -3,8 +3,9 @@
         font-size: 20px;
     }
 
+    
 
-    /* First Section */
+/* First Section */
 
     .introduction {
         width: auto;
@@ -19,41 +20,41 @@
         font-size: 32px;
     }
 
-    /* Projects Section */
+/* Projects Section */
 
-.grid {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 5vh;
-    width: 90%;
-    margin: 0 auto;
-    
-}
+    .grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5vh;
+        width: 90%;
+        margin: 0 auto;
+        
+    }
 
-.grid-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-bottom: 5vh;
-    width: 90%;
-    margin: 0 auto;
-}
+    .grid-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 5vh;
+        width: 90%;
+        margin: 0 auto;
+    }
 
 
-#project-name {
-    font-size: 20px;
+    #project-name {
+        font-size: 20px;
 
-}
+    }
 
-#project-type{
-    font-size: 15px;
+    #project-type{
+        font-size: 15px;
 
-}
+    }
 
-img {
-    width: 80%;
-};
+    img {
+        width: 80%;
+    };
 
 /* Contact Section */
 
@@ -144,7 +145,7 @@ img {
         background-color: black;
         cursor: pointer;
     }
-    /* Footer Section */
+/* Footer Section */
 
 footer {
     margin-top: 5vh;

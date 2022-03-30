@@ -36,8 +36,9 @@ body {
 }
 
 ul {
-    width: 12vw;
+    width: auto;
     display: flex;
+    gap: 50px;
     justify-content: space-between ;
     flex-wrap: wrap;
     list-style-type: none;  
@@ -74,6 +75,61 @@ li:hover:after{
    
 }
 
+/*burguer*/
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: black;
+}
+
+@media screen and (max-width: 768px){
+    .hamburger{
+       display: block; 
+    } 
+    
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        right: -100%;
+        top: 70px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #f4f4f4;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 10;
+        height: 200px;
+    }
+
+    .nav-item{
+        margin: 16px 0px;
+        font-size: 16px;
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+}
 /* First Section */
 
 .introduction {
@@ -306,9 +362,10 @@ footer {
 }
 
 #footer_ul {
-    width: 100px;
+    width: auto;
     display: flex;
     height: auto;
+    gap: 30px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
