@@ -59,7 +59,7 @@ img {
 
 
     #contact_form {
-        width: 80%;
+        width: 100%;
           
     }
     
@@ -81,7 +81,7 @@ img {
 
     /* Footer Section */
 footer {
-    margin-top: 10vh;
+    margin-top: 5vh;
 }
 
 .footer-container{

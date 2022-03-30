@@ -175,9 +175,9 @@ img {
 
 #form-container{
 width: 100%;
-height: 70vh;
+height: auto;
 margin: 0 auto;
-margin-top: 10vh;
+margin-top: 5vh;
 display: flex;
 flex-direction: column;
 justify-content: flex-start;
