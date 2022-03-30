@@ -1,0 +1,149 @@
+@media  screen and (max-width: 480px){
+    #logo{
+        font-size: 20px;
+    }
+
+
+    /* First Section */
+
+    .introduction {
+        width: auto;
+        justify-items: center;
+        flex-direction: column;
+        text-align: center;
+      
+    }
+    
+    #descrição{
+        margin-top: 14px;
+        font-size: 32px;
+    }
+
+    /* Projects Section */
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5vh;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.grid-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5vh;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+#project-name {
+    font-size: 20px;
+
+}
+
+#project-type{
+    font-size: 15px;
+
+}
+
+img {
+    width: 80%;
+};
+
+/* Contact Section */
+
+
+    #contact_form {
+        width: 80%;
+          
+    }
+    
+    
+    #form_h3{
+        font-size: 32px;
+        font-weight: 46px;
+    }
+    
+    #submit{
+        padding: 12px 25px;
+        align-items: center;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        outline: none;
+        color: white;
+        background-color: black;
+        cursor: pointer;
+    }
+
+    /* Footer Section */
+footer {
+    margin-top: 10vh;
+}
+
+.footer-container{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#footer_name{
+    
+    font-size: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+    font-weight: 28px;
+    transition: opacity 0.3s ease-in;
+}
+
+#footer_name:hover{
+    opacity: 1;
+}
+
+ul {
+    width: 17vw;
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    list-style-type: none;  
+}
+
+a {
+    position: relative;
+    list-style-type: none; 
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 0.8;
+    font-weight: 28px;
+    transition: opacity 0.3s ease-in;
+    color: black;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+a:after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.4s ease;
+}
+
+a:hover:after{
+    width: 100%;
+   
+}
+    
+    
+}
