@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="body">
     <header class="header-container">
         <nav class="nav-bar">
             <p id="logo"><strong>Portfolio</strong></p>
@@ -30,93 +30,119 @@
             </div>
         </nav> 
     </header>
+    <main>
+        <section id="about_section">
+            <div class="introduction">
+                <p id="name">Rúben Figueiredo</p>
+                <p id="job">Web Developer</p>
+                <h1 class="title" id="descrição">Hey there! I’m a self-taught web developer based in Ermesinde Porto, Portugal.</h1>
+            </div>
+             <div id="img_about">
+                <img id="dark_mode" src="/img/dark-mode.png">
+                <!--<img id="about_img" src="img/Screenshot_2022-09-30-10-37-13-023_com.instagram.android(1).jpg">-->
+            </div>
+        </section>
+        <section class="sked" id="skills">
+            <div class="sked_text">
+                <h1 class="title">Skills</h1>
+            </div>
+            <div class="sked_containers sked_containers_1">
+                <img id="html_img" class="skills_img" src="img/html.png">
+                <img id="css_img" class="skills_img" src="img/css.png">
+                <img id="js_img" class="skills_img" src="img/js.png">
+                <img id="git_img" class="skills_img" src="img/git.png">
+            </div>
+        </section>
+        <section class="sked" id="education">
+            <div class="sked_text">
+                <h1 class="title">Education</h1>
+            </div>
+            <div class="sked_containers sked_containers_2">
+                <img id="free_img" class="skills_img" src="img/freecodecamp.png">
+                <img id="harvard" class="skills_img" src="img/harward.png">
+                <img id="codecademy_img" class="skills_img" src="img/pngegg.png">
+                <img id="youtube" class="skills_img" src="img/youtube-logo-png-2069.png">
+             </div>
+        </section>
+        <section class="projects">
+            <div class="grid">
 
-    <section class="introduction">
-        <p id="name">Rúben Figueiredo</p>
-        <p id="job">Web Developer</p>
-        <h1 id="descrição">Hey there! I’m a web developer based in Ermesinde Porto, Portugal.</h1>
-    </section>
+                <div class="project_container">
+                    <img src="./img/pexels-maxime-francis-2246476.jpg" >
+                
+                    <div class="project_description">
+                        <p id="project_name">Project</h3>
+                        <p id="project_type">WebApp</p>
+                    
+                    </div>
+                </div>
 
-    <section class="projects">
-
-        <div class="grid">
-
-            <div class="project-container">
-                <img src="./img/pexels-maxime-francis-2246476.jpg" >
-            
-                <div class="project-description">
-                    <p id="project-name">Project</h3>
-                    <p id="project-type">WebApp</p>
-                  
+                <div class="project_container">
+                    <img src="./img/pexels-hilal-bülbül-10906361.jpg" >
+                    
+                        <div class="project_description">
+                            <p id="project_name">Project</h3>
+                            <p id="project_type">WebApp</p>
+                            
+                        </div>
                 </div>
             </div>
-
-            <div class="project-container">
-                <img src="./img/pexels-hilal-bülbül-10906361.jpg" >
-                
-                    <div class="project-description">
-                        <p id="project-name">Project</h3>
-                        <p id="project-type">WebApp</p>
-                        
-                    </div>
+        <div class="grid_2">   
+            <div class="project_container">
+                    <img src="./img/pexels-hilal-bülbül-10906361.jpg" >
+                    
+                        <div class="project_description">
+                            <p id="project_name">Project</h3>
+                            <p id="project_type">WebApp</p>
+                            
+                        </div>
             </div>
-        </div>
-    <div class="grid-2">   
-        <div class="project-container">
-                <img src="./img/pexels-hilal-bülbül-10906361.jpg" >
+            
+                <div class="project_container">
+                    <img src="./img/pexels-maxime-francis-2246476.jpg" >
                 
-                    <div class="project-description">
-                        <p id="project-name">Project</h3>
-                        <p id="project-type">WebApp</p>
-                        
-                    </div>
+                        <div class="project_description">
+                            <p id="project_name">Project</h3>
+                            <p id="project_type">WebApp</p>
+                            
+                        </div>
+                </div>
+
+                
         </div>
+        </section>
         
-            <div class="project-container">
-                <img src="./img/pexels-maxime-francis-2246476.jpg" >
-               
-                    <div class="project-description">
-                        <p id="project-name">Project</h3>
-                        <p id="project-type">WebApp</p>
-                        
-                    </div>
-            </div>
 
-            
-    </div>
-    </section>
-    
-
-    <section id="form-container">
-        <form id="contact_form">
-            <h3 id="form_h3">Want to get in touch?Drop me a line!</h3>
-            
-            <div id="form-1">
-                <div id="name_container">
-                    <label class="text_form" for="name_form">NAME:</label><br>
-                    <input type="text" id="name_form" name="name_form">
-                </div> 
+        <section id="form-container">
+            <form id="contact_form">
+                <h3 id="form_h3">Want to get in touch?Drop me a line!</h3>
                 
-                <div id="email_container">
-                    <label class="text_form" for="email_form"">EMAIL ADDRESS:</label><br>
-                    <input type="email" id="email_form"" name="email_form">
-                </div> 
-            </div>
-            <div id="form-2">   
-                <br>
-                <div id="message_container">
-                    <label class="text_form" for="message">FORM LABEL:</label><br>
-                    <textarea id="message"> 
-                    </textarea>
-                </div> 
-            </div>
-                <br>
-                <div id="submit_container">
-                    <input id="submit" type="submit" value="SUBMIT">
-        </div></form>
-    </section>
+                <div id="form_1">
+                    <div id="name_container">
+                        <label class="text_form" for="name_form">NAME:</label><br>
+                        <input class="nem_container" type="text" id="name_form" name="name_form">
+                    </div> 
+                    
+                    <div id="email_container">
+                        <label class="text_form" for="email_form"">EMAIL ADDRESS:</label><br>
+                        <input class="nem_container" type="email" id="email_form" name="email_form">
+                    </div> 
+                </div>
+                <div id="form_2">   
+                    <br>
+                    <div  id="message_container">
+                        <label class="text_form" for="message">FORM LABEL:</label><br>
+                        <textarea class="nem_container" id="message"> 
+                        </textarea>
+                    </div> 
+                </div>
+                    <br>
+                    <div id="submit_container">
+                        <input id="submit" type="submit" value="SUBMIT">
+            </div></form>
+        </section>
 
-
+    </main>
     <footer>
         <div class="footer-container">
             <div id="name_container_footer">
@@ -126,6 +152,7 @@
                     <ul id="footer_ul">
                         <a id="social_icon" target="_blank" href="https://www.facebook.com/rmbf10"><img src="./img/facebook (1).png"></a>
                         <a id="social_icon" target="_blank" href="https://github.com/RubenFigueiredo98"><img src="./img/placa-do-github.png"></a>
+                        <a id="social_icon" target="_blank" href="https://www.linkedin.com/in/r%C3%BAben-figueiredo-bab542206/"><img src="./img/linkedin_black_logo_icon_147114.png"></a>
                         <a id="social_icon" target="_blank" href="https://www.instagram.com/ruben_barroso98/"><img src="./img/instagram.png"></a>
                     </ul>
                 </div>

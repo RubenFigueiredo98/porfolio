@@ -29,10 +29,19 @@ body {
     align-items: center;
 }
 
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   /* margin: 0 auto;*/
+}
+
 #logo{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #1a1b1f;
     font-weight: bolder;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 ul {
@@ -47,7 +56,7 @@ ul {
 li {
     position: relative;
     list-style-type: none; 
-    font-size: 12px;
+    font-size: 13px;
     text-decoration:none;
     cursor: pointer;
     transition: all 0.5 ease-in;
@@ -74,6 +83,19 @@ li:hover:after{
     width: 100%;
    
 }
+
+#dark_mode {
+    position: relative;
+    bottom: 10vh;
+    width: 35px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in;
+}
+
+#dark_mode:hover {
+    transform: scale(1.1);
+}
+
 
 /*burguer*/
 
@@ -133,25 +155,22 @@ li:hover:after{
 /* First Section */
 
 .introduction {
-    width: 72vw;
-    margin: 0 auto;
+    width: 60vw;
     height: auto;
     display: flex;
-    justify-items: flex-start;
     flex-direction: column;
-    margin-top: 10vh;
-
 }
 
 #descrição{
     margin-top: 10px;
-    font-size: 62px;
+    font-size: 50px;
     font-weight: lighter;
 }
 
 #name {
     font-weight: 34px;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
 #job{
@@ -160,6 +179,74 @@ li:hover:after{
     opacity: 0.6;
 }
 
+.title {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+/*About Section*/
+#about_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 40vh;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#about_img {
+    width: 250px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/*skills and education section*/
+.sked{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.sked_text {
+    margin-bottom: 35px;
+}
+
+.sked_containers {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 100%;
+}
+.skills_img {
+    width: 100px;
+    height: auto;
+}
+
+#html_img, #git_img {
+    width: 120px;
+}
+
+#css_img, #free_img {
+    width: 140px;
+}
+
+#youtube {
+    width: 180px;
+}
+#harvard {
+    width: 220px;
+}
+#codecademy_img {
+    width: 280px;
+}
 /* Projects Section */
 
 .projects {
@@ -187,7 +274,7 @@ li:hover:after{
     
 }
 
-.grid-2 {
+.grid_2 {
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 30vw 60vw ;
@@ -199,7 +286,7 @@ li:hover:after{
     margin-bottom: 5vh;
 }
 
-.project-container{
+.project_container{
     display: grid;
     width: auto;
     margin: 0 auto;
@@ -208,12 +295,12 @@ li:hover:after{
     align-items: center;
 }
 
-#project-name {
+#project_name {
     font-size: 25px;
     font-weight: 34px;
 }
 
-#project-type{
+#project_type{
     font-size: 18px;
     font-weight: 28px;
     opacity: 0.6;
@@ -247,7 +334,7 @@ justify-content: flex-start;
     
 }
 
-#form-1 {
+#form_1 {
     display: flex;
     flex-direction: row;
     height: 10vh;
@@ -256,7 +343,7 @@ justify-content: flex-start;
     margin-top: 5vh;
 }
 
-#form-2 {
+#form_2 {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -380,4 +467,18 @@ footer {
 
 #social_icon:hover{
     transform: scale(1.5)
+}
+
+/* dark-mode */
+
+.dark-theme {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.753)
+}
+
+.dark-theme2 {
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid white;
+
 }
