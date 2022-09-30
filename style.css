@@ -84,6 +84,11 @@ li:hover:after{
    
 }
 
+a {
+    text-decoration: none;
+    color: #1a1b1f;
+}
+
 #dark_mode {
     position: relative;
     bottom: 10vh;
