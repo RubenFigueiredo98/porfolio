@@ -68,15 +68,16 @@ main {
         
     }
     .sked_containers_1{
-        width: 60vw;
+        width: 70vw;
         gap: 40px;
     }
+    
     .skills_img {
         width: 70px;
         height: auto;
     }
     
-    #html_img, #git_img {
+    #html_img, #git_img, #c_img {
         width: 80px;
         height: 80px;
     }
@@ -86,8 +87,9 @@ main {
         height: 90px;
     }
     
-    #youtube {
+    #youtube{
         width: 120px;
+        margin: 0 auto;
     }
     #harvard {
         width: 180px;
@@ -238,4 +240,17 @@ footer {
 }
 
 
+}
+@media  screen and (max-width: 571px){
+    #youtube{
+        width: 120px;
+        margin: 0 auto;
+    }
+    #codecademy_img {
+        width: 200px;
+        margin: 10px auto;
+    }
+    #git_img {
+        margin: 0 auto;
+    }
 }
